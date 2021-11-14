@@ -1,13 +1,12 @@
-package com.zerotoproduction.firstrest;
+package com.qalens.todo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class FirstrestApplication {
-
+@SpringBootApplication(scanBasePackages = {"com.qalens.todo"})
+public class Application {
 	public static void main(String[] args) {
-		SpringApplication.run(FirstrestApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
